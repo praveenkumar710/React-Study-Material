@@ -19,7 +19,7 @@ OS
   -->Linux
 
 CLOUD COMPUTER 
-   ==>AWS
+   -->AWS
       
 
 

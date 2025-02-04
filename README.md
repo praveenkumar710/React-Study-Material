@@ -1,22 +1,22 @@
 FullStack Study Materical
 
 Front END
-  ==>HTML
-  ==>CSS
-  ==>React
+  -->HTML
+  -->CSS
+  -->React
 
 BACK END 
-  ==>Node.js
-  ==>Express.js
-  ==>JAVA
+  -->Node.js
+  -->Express.js
+  -->JAVA
 
 DATABASE
-  ==>MYSQL
-  ==>PostgresSql
+  -->MYSQL
+  -->PostgresSql
   
 OS
-  ==>Window OS
-  ==>Linux
+  -->Window OS
+  -->Linux
 
 CLOUD COMPUTER 
    ==>AWS

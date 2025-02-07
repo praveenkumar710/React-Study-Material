@@ -8,15 +8,15 @@ Front END
 BACK END 
   -->Node.js
   -->Express.js
-  |JAVA
+  | JAVA
 
 DATABASE
   -->MYSQL
-  |PostgresSql
+  | PostgresSql
   
 OS
   -->Window OS
-  |Linux
+  | Linux
 
 CLOUD COMPUTER 
    -->AWS

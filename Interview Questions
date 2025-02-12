@@ -1,0 +1,148 @@
+
+Here are interview questions categorized into **Basic, Intermediate, and Advanced** levels:  
+
+---
+
+### **🔹 Basic Level (Fundamentals & Core Concepts)**  
+1. **Tell me about yourself.**  
+2. **What are your key technical skills?**  
+3. **What is the difference between JavaScript and TypeScript?**  
+4. **What is React.js, and why do we use it?**  
+5. **Explain the difference between var, let, and const in JavaScript.**  
+6. **What is Node.js, and how does it work?**  
+7. **What is an API, and how do you consume one in React?**  
+8. **What is PostgreSQL, and why do we use it?**  
+9. **What is Git, and how do you manage version control in a project?**  
+10. **What is the purpose of AWS Lambda?**  
+
+---
+
+### **🔹 Intermediate Level (Practical & Problem-Solving Questions)**  
+1. **Explain how Redux works and when to use it in React applications.**  
+2. **How does React handle state management?**  
+3. **What are the lifecycle methods in React?**  
+4. **How do you optimize a React application for performance?**  
+5. **What is Express.js, and how is it used with Node.js?**  
+6. **Can you explain how to set up authentication in a full-stack application?**  
+7. **What is CORS, and how do you handle it in an API?**  
+8. **How do you deploy a full-stack application using AWS?**  
+9. **Explain database indexing and why it is important.**  
+10. **How would you troubleshoot and debug a slow-performing query in PostgreSQL?**  
+
+---
+
+### **🔹 Advanced Level (Deep Technical & System Design Questions)**  
+1. **How does React’s Virtual DOM improve performance?**  
+2. **What are React Hooks, and how do they improve function components?**  
+3. **Explain event loop and asynchronous programming in JavaScript.**  
+4. **How do you handle security vulnerabilities in a web application?**  
+5. **Describe the microservices architecture and how it differs from monolithic applications.**  
+6. **What is load balancing, and how can you implement it in AWS?**  
+7. **How would you design a scalable Warehouse Management System?**  
+8. **How do you implement pagination and filtering efficiently in PostgreSQL?**  
+9. **Explain the concept of serverless computing and its advantages.**  
+10. **How would you optimize a React application that is rendering slowly due to large amounts of data?**  
+
+---
+**🔹 Basic Level (Fundamentals & Core Concepts)**
+
+1. **Tell me about yourself.**  
+   
+2. **What are your key technical skills?**  
+   - "I am skilled in React.js, Node.js, Express.js, PostgreSQL, JavaScript, TypeScript, Git, AWS Lambda, and cloud deployment."
+
+3. **What is the difference between JavaScript and TypeScript?**  
+   - TypeScript is a superset of JavaScript that adds static typing, which helps catch errors during development. JavaScript is dynamically typed and does not enforce type safety.
+
+4. **What is React.js, and why do we use it?**  
+   - React.js is a JavaScript library for building user interfaces using a component-based architecture. It is efficient due to the Virtual DOM and enables fast, scalable applications.
+
+5. **Explain the difference between var, let, and const in JavaScript.**  
+   - `var` is function-scoped and allows redeclaration. `let` is block-scoped and can be reassigned. `const` is also block-scoped but cannot be reassigned.
+
+6. **What is Node.js, and how does it work?**  
+   - Node.js is a runtime environment that allows JavaScript to run on the server-side. It uses an event-driven, non-blocking I/O model, making it efficient for handling multiple requests.
+
+7. **What is an API, and how do you consume one in React?**  
+   - An API (Application Programming Interface) allows communication between the frontend and backend. In React, we use `fetch()` or `axios` to make API calls.
+
+8. **What is PostgreSQL, and why do we use it?**  
+   - PostgreSQL is an open-source relational database known for its robustness, scalability, and support for complex queries.
+
+9. **What is Git, and how do you manage version control in a project?**  
+   - Git is a version control system that tracks changes in code. We use commands like `git commit`, `git push`, `git pull`, and `git branch` for code management.
+
+10. **What is the purpose of AWS Lambda?**  
+   - AWS Lambda is a serverless compute service that runs code in response to events without managing servers.
+
+---
+
+**🔹 Intermediate Level (Practical & Problem-Solving Questions)**
+
+1. **Explain how Redux works and when to use it in React applications.**  
+   - Redux is a state management library that centralizes application state. It is used when multiple components share state or when state management becomes complex.
+
+2. **How does React handle state management?**  
+   - React uses local state (`useState`), context API (`useContext`), and external libraries like Redux to manage state efficiently.
+
+3. **What are the lifecycle methods in React?**  
+   - Mounting (`componentDidMount`), Updating (`componentDidUpdate`), and Unmounting (`componentWillUnmount`) in class components. Hooks like `useEffect` handle similar lifecycle events in functional components.
+
+4. **How do you optimize a React application for performance?**  
+   - Use memoization (`useMemo`, `useCallback`), code-splitting, lazy loading, optimizing renders with `React.memo`, and reducing unnecessary state updates.
+
+5. **What is Express.js, and how is it used with Node.js?**  
+   - Express.js is a web framework for Node.js that simplifies building APIs, handling middleware, and routing.
+
+6. **Can you explain how to set up authentication in a full-stack application?**  
+   - Use JWT (JSON Web Tokens) for token-based authentication or OAuth for third-party logins. Store JWTs securely in HTTP-only cookies or local storage.
+
+7. **What is CORS, and how do you handle it in an API?**  
+   - CORS (Cross-Origin Resource Sharing) controls which domains can access an API. It is configured in the backend using middleware like `cors` in Express.
+
+8. **How do you deploy a full-stack application using AWS?**  
+   - Deploy frontend on **S3 + CloudFront**, backend on **EC2 or Lambda**, and database on **RDS (PostgreSQL)**.
+
+9. **Explain database indexing and why it is important.**  
+   - Indexing speeds up data retrieval by creating a lookup structure. Without indexes, queries perform full table scans, slowing performance.
+
+10. **How would you troubleshoot and debug a slow-performing query in PostgreSQL?**  
+   - Use `EXPLAIN ANALYZE` to analyze query execution, optimize indexes, and rewrite queries using best practices.
+
+---
+
+**🔹 Advanced Level (Deep Technical & System Design Questions)**
+
+1. **How does React’s Virtual DOM improve performance?**  
+   - The Virtual DOM minimizes direct manipulation of the real DOM by batching updates and re-rendering only necessary components.
+
+2. **What are React Hooks, and how do they improve function components?**  
+   - Hooks like `useState`, `useEffect`, and `useContext` allow function components to manage state and lifecycle without class components.
+
+3. **Explain event loop and asynchronous programming in JavaScript.**  
+   - The event loop processes asynchronous tasks like API calls, allowing JavaScript to handle multiple tasks without blocking execution.
+
+4. **How do you handle security vulnerabilities in a web application?**  
+   - Use input validation, sanitize user inputs, implement authentication (OAuth, JWT), protect against XSS and CSRF attacks.
+
+5. **Describe the microservices architecture and how it differs from monolithic applications.**  
+   - Microservices break applications into independent services, improving scalability and maintainability compared to monolithic structures.
+
+6. **What is load balancing, and how can you implement it in AWS?**  
+   - Load balancing distributes traffic across multiple servers. AWS **Elastic Load Balancer (ELB)** is used to manage incoming traffic efficiently.
+
+7. **How would you design a scalable Warehouse Management System?**  
+   - Use a microservices architecture with separate services for inventory, order processing, and analytics. Implement caching (Redis) and scalable databases.
+
+8. **How do you implement pagination and filtering efficiently in PostgreSQL?**  
+   - Use `LIMIT` and `OFFSET` for pagination, and indexed queries with `WHERE` clauses for filtering.
+
+9. **Explain the concept of serverless computing and its advantages.**  
+   - Serverless computing eliminates server management, reduces cost, and scales automatically. AWS Lambda is an example.
+
+10. **How would you optimize a React application that is rendering slowly due to large amounts of data?**  
+   - Implement virtualization (React Virtualized), pagination, memoization (`useMemo`), and debounce user inputs.
+
+---
+
+This covers **basic, intermediate, and advanced** questions along with detailed answers. Let me know if you need further explanations! 😊
